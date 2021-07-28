@@ -1,0 +1,122 @@
+.oracle-analytics h3 {
+  color: #032352;
+  font-size: 1.5rem;
+}
+
+.oracle-analytics h5 {
+  color: #032352;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+  font-size: 1rem;
+}
+
+.oracle-analytics .total-balance {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: -12px;
+      margin-bottom: 2.5rem;
+          font-size: 14px;
+          line-height: 25px;
+          color: #032352d1;
+          font-weight: 400;
+          margin-top: 0.5rem;
+}
+
+.oracle-analytics .analytics {
+  margin-top: 20px;
+}
+
+.oracle-analytics .analytics .node-card {
+  text-align: center;
+  padding: 4rem 10px;
+  margin-top: 2rem;
+  background: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.oracle-analytics .analytics .node-card .badge {
+  padding: 5px 20px;
+  background: rgba(43, 159, 122, 0.06);
+  border-radius: 20px;
+  color: #2b9f7a;
+}
+
+.oracle-analytics .analytics .node-card .address {
+  margin-top: 2rem;
+  color: #495f7f;
+}
+
+.oracle-analytics .analytics .node-card .address p {
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+
+.oracle-analytics .analytics .node-card .address p a {
+  color: #495f7f;
+  font-size: 13px;
+}
+
+.oracle-analytics .analytics .graph-card {
+  background: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+  height: 33rem;
+  border-radius: 15px;
+}
+
+.oracle-analytics .analytics .graph-card .top-card-progress {
+  color: #ae0707 !important;
+}
+
+.oracle-analytics .analytics .graph-card span {
+  font-size: 13px;
+  color: #495f7f;
+}
+
+.oracle-analytics .analytics .graph-card .graph {
+  margin-top: 1.2rem;
+  /* margin-bottom: 2.5rem; */
+}
+
+.oracle-analytics .analytics .graph-card .bizcharts-plot {
+  height: 230px !important;
+  margin-bottom: 1rem;
+}
+
+.oracle-analytics .analytics .graph-card h5 {
+  font-size: 13px;
+}
+
+.oracle-analytics .analytics .graph-card h4 {
+  color: #495f7f;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.oracle-analytics .analytics .graph-card .update-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: -20px;
+}
+
+.oracle-analytics .analytics .graph-card .update-button button {
+  margin-bottom: 2.4rem;
+  color: #ae0707;
+  border-radius: 7px;
+  border: none;
+  width: 15rem;
+  padding: 15px 17px;
+  background: rgba(174, 7, 7, 0.04);
+  font-size: 13px;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

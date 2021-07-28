@@ -1,0 +1,24 @@
+
+just for info: BIRD STAKING, ORACLE contracts on kovan:
+
+MasterChef.address:  0x26eAd6Ef963D2F87e0201d3F25a9394fe41fec84
+
+LP Token MockERC20.address:  0xC64Bf0079856333FfBE39546Bc7524e6b19d20A7
+
+USDT Token:  0x3Da9E82d842b6343e1b6b452C5bbBa8B994b1D7C
+
+BirdToken: 0xee426697da6885e7c8c0d48255de85ac412dd7b9
+
+BirdOracle: 0xd666840ecd7c643f7bf441e6cbbd0bc91588737a
+
+
+Migrations https://kovan.etherscan.io/address/0x0E9dCad7E1D4969d4d9a501C34373821126FDc62#contracts
+
+MasterChef https://kovan.etherscan.io/address/0x26eAd6Ef963D2F87e0201d3F25a9394fe41fec84#contracts
+
+MockERC20  https://kovan.etherscan.io/address/0xC64Bf0079856333FfBE39546Bc7524e6b19d20A7#contracts
+
+BirdToken: https://kovan.etherscan.io/address/0xee426697da6885e7c8c0d48255de85ac412dd7b9#code
+
+BirdOracle: https://kovan.etherscan.io/address/0xd666840ecd7c643f7bf441e6cbbd0bc91588737a#code
+

@@ -1,0 +1,145 @@
+.bird-farm-component {
+  text-align: center;
+}
+
+.bird-farm-component .header {
+  display: flex;
+  justify-content: space-between;
+  text-align: initial;
+}
+
+.bird-farm-component .header h3,
+h6 {
+  color: #032352;
+}
+
+.bird-farm-component .header h6 {
+  font-weight: 400;
+}
+
+.bird-farm-component .header .search-component {
+  top: 0 !important;
+}
+
+/* .bird-farm-component .avatar {
+      text-align: center;
+      margin-top: -2rem;
+      width: 4.5rem;
+      height: 4.5rem;
+      margin: 10px;
+      padding: 13px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0px 0px 28.4381px rgb(0 0 0 / 3%);
+      margin-top: 2rem;
+}
+
+.bird-farm-component .avatar img {
+      width:80%;  
+} */
+
+.bird-farm-component h5 {
+  font-weight: 400;
+  color: #032352;
+  margin-top: 2rem;
+}
+
+.bird-farm-component .cards {
+  display: flex;
+  margin-top: 3.5rem;
+  justify-content: center;
+}
+
+.bird-farm-component .cards .farm-card {
+  width: 22rem;
+  background: white;
+  padding: 1rem;
+  margin-right: 2rem;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 15px;
+  min-height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bird-farm-component .cards .farm-card img {
+  padding: 13px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #f4f5f7;
+  box-shadow: 0px 0px 21.6819px rgb(0 0 0 / 3%);
+  margin-top: 2rem;
+}
+
+.bird-farm-component .cards .farm-card .price {
+      margin-top: 8px;
+      font-size: 3rem;
+      font-weight: 500;
+      color: #032352;
+      margin-bottom: 0;
+}
+
+.bird-farm-component .cards .farm-card .note {
+  color: #032352;
+}
+
+.bird-farm-component .cards .farm-card .note span {
+      font-weight: 500;
+}
+
+.bird-farm-component .cards .farm-card button {
+  margin-bottom: 2.4rem;
+  color: #ae0707;
+  border-radius: 4px;
+  border: none;
+  width: 15rem;
+  padding: 10px;
+  background: rgba(174, 7, 7, 0.04);
+  font-size: 13px;
+  margin-top: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.bird-farm-component .cards .farm-card button:disabled {
+  color: #ea8282 !important;
+  cursor: no-drop;
+  background: rgba(174, 7, 7, 0.04);
+}
+
+.bird-farm-component .cards .farm-card button .loading {
+  width: 15px !important;
+  height: 15px !important;
+  position: relative;
+  top: 4px;
+  left: 10px;
+  color: #ae0708;
+}
+
+.bird-farm-component .farm-card .unstake {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.bird-farm-component .farm-card .unstake button {
+  width: 12rem;
+}
+
+.bird-farm-component .farm-card .unstake p {
+  margin-left: 1rem;
+  border-radius: 50%;
+  background: #ae0708;
+  padding: 10px 11px;
+  color: white;
+  -webkit-text-fill-color: white;
+  align-items: flex-end;
+}
+
+.bird-farm-component .farm-card .unstake p:hover {
+  cursor: pointer;
+}

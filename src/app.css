@@ -1,0 +1,196 @@
+.sidenav {
+  height: 100vh;
+  background: white;
+  display: flex;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  border: 0;
+  border-right: 1px solid #e9ebf0;
+  flex: 1 1 24%;
+}
+
+.MuiCircularProgress-colorPrimary {
+      color: #b53f3fc2 !important;
+      width: 25px !important;
+      height: 25px !important;
+}
+
+@media only screen and (min-width: 1480px) {
+      .sidenav {
+            flex: 1 1 18%;
+      }
+}
+
+@media only screen and (min-width: 1920px) {
+      .sidenav {
+            flex: 1 1 15%;
+      }
+}
+
+.col10 {
+  padding: 3.5rem 2.5rem;
+  flex: 1 0 76%;
+}
+
+@media only screen and (min-width: 1480px) {
+  .col10 {
+    flex: 1 1 80%;
+  }
+}
+
+.sidenav .side-bar {
+  border-right: 1px solid #e9ebf0;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url('./assets/fonts/averta-light-webfont.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url('./assets/fonts/averta-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Averta';
+  src: url('./assets/fonts/averta-semibold-webfont.ttf') format('truetype');
+  font-weight: 500;
+}
+
+body,
+#root {
+  font-family: 'Averta';
+  letter-spacing: 0.01em;
+  font-style: normal;
+}
+
+.nav {
+  color: green;
+}
+
+.nav .nav-icon:hover::after {
+  content: url(./assets/svgs/farm-active.svg);
+}
+
+.connect-wallet {
+      background: rgba(174, 7, 7, 0.03);
+      border-radius: 7.93501px;
+      border: none;
+      padding: 11px;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      font-size: 12px;
+      line-height: 179%;
+      color: #ae0707;
+      margin: 15px;
+      font-weight: 500;
+      position: fixed;
+      right: 55px;
+      top: 2.5rem;
+}
+
+.btn {
+  color: #ae0707;
+  border-radius: 4px;
+  border: none;
+  width: 16rem;
+  padding: 10px 35px;
+  background: rgba(174, 7, 7, 0.04);
+  font-size: 13px;
+  /* margin-top: 1.3rem; */
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.btn.arrow-btn {
+      background: transparent;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      border: 1px solid transparent;
+}
+
+.wallet-type-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 9px;
+      border: 0.1px solid #e0e7ee78;
+      background: none;
+      padding: 10px 13px;
+}
+
+.wallet-type-btn:hover {
+      border: 0.5px solid #495f7f;
+}
+
+.btn.btn-dismiss {
+      background: none;
+      color: #ae0707a8;
+}
+
+.btn.short {
+  width: 10rem;
+}
+
+.btn:hover {
+  background: #ae0707;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn.max {
+  width: auto;
+  padding: 10px 16px;
+  background: transparent;
+  border: 1px solid #ae0707;
+}
+
+.btn.max:hover {
+  color: #ae0707;
+}
+
+/* .modal-button.max {
+      width: auto;
+      margin-top: 0;
+      background: transparent;
+      border: 1px solid #ae0708;
+      color: #ae0708;
+      padding: 8px 11px;
+      text-align: center;
+      margin-left: 1rem;
+} */
+
+.modal-button.connect-button {
+  /* width: ; */
+}
+
+.btn.arrow-btn:hover {
+      background: transparent;
+      /* border: 1px solid #495f7f; */
+}
+
+.btn.arrow-btn:focus {
+      outline: none;
+      border: none;
+}
+
+.btn.arrow-btn:active {
+      outline: none;
+      border: none;
+}

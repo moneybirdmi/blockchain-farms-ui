@@ -1,0 +1,29 @@
+.search-component {
+  display: flex;
+  position: relative;
+  top: -15px;
+}
+
+.search-component .search {
+  background: #ffffff;
+  border: 1px solid #dfe6ef;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 20rem;
+  padding: 24px 57px;
+  font-size: 13px;
+}
+
+.search-component .search::placeholder {
+  color: rgba(3, 35, 82, 0.48);
+  font-weight: 300;
+  text-align: center;
+}
+
+.search-component svg {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  color: rgba(3, 35, 82, 0.13);
+  font-size: 23px;
+}
